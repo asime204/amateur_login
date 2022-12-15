@@ -31,6 +31,33 @@
     margin-bottom: 0;
 }
 
+.hr-lines:before {
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    background: gray;
+}
+.hr-lines {
+    position: relative;
+    max-width: 500px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.hr-lines::after{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background: gray;
+}
+
 a {
     text-decoration: none;
 }
