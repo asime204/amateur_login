@@ -28,6 +28,7 @@
 .main {
     grid-area: main;
     padding-top: 50px;
+    margin-bottom: 0;
 }
 
 a {
@@ -38,6 +39,7 @@ a {
     display: flex;
     justify-content: center;
 }
+
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -47,7 +49,7 @@ a {
     grid-template-areas:
         "map map map"
         "copy copy copy";
-        padding: 20px 0 200px 0;
+    padding: 20px 0 200px 0;
 }
 
 .map {
@@ -65,9 +67,10 @@ a {
     justify-content: space-between;
 }
 
-#continue{
+#continue {
     border: 1px solid black;
 }
+
 #create {
     color: black;
     background-color: lightgray !important;
